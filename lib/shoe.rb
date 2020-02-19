@@ -12,7 +12,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def unique
-    @unique 
+ def genre=(genre)
+  @genre = genre
+  GENRES << genre 
+  end 
   
 end 
