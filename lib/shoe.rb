@@ -6,8 +6,8 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    @brand = brand
-    if brand.size == BRANDS.uniq
+    @brand = brand== BRANDS.uniq
+      
   end
 
   def cobble
